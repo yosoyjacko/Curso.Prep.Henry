@@ -1,0 +1,54 @@
+* Variables :
+     Las variables se usan para guardar un valor que tengamos que utilizar mas tarde. Dicha variable puede tener valores de cualquier tipo.
+     Hay tres palabras claves para declarar una variable, var, let y const.
+     Para utilizar una variable siempre se utiliza primero la palabra clave(var, let o const), despues el nombre que quisieramos ponerle a esa variable y por ultimo el valor de esa variable.
+     Un ejemplo de una variable seria:
+        var ejemplo = 'hola'
+        En el ejemplo se ve que se utiliza la palabra clave 'var', luego como necesitamos ponerle un nombre a esa variable le ponemos 'ejemplo' y al final un valor que en este caso es 'hola'
+
+
+* Strings :
+    Un string es una cadena de caracteres que el lenguaje lo toma como texto.
+    siempre se escriben dentro de comillas simples o dobles.
+    un ejemplo de esto es:
+        var ejemploString = 'hola'
+        
+            En el ejemplo se utiliza una variable que dentro de ella se encentra un string porque esta dentro de comillas.
+            tambien otro ejemplo puede ser:
+
+        var ejemploStringDos = '33'
+
+            Aca no se toma como un tipo de datos de tipo number sino que se lo toma como texto literal. osea que si queremos hacer lo siguiente:
+        
+        var ejemploStringTres = '33 + 3'
+
+            En este caso lo toma de manera literar devolviendo 33 + 3 y no 36
+
+
+*funciones:
+    Las funciones son una parte importante de los lenguajes de programacion y se utiliza para calcular, cambiar o hacer cualquier cosa con los conjuntos de variables
+    Una funcion comienza con la palabra clave 'function', esto le dice al lenguaje que lo que sigue es una funcion. Despues el nombre de la funcion seguido de parentesis abierto y cerrado(en el cual van a contener el o los argumentos), luego llaves y/o corchetes de abierto y cerrado que dentro de este ultimo es donde se coloca la funcion a realizar
+    Ej:
+        function ejemploFuncion (argumento) {
+            lo que sea que se necesite correr
+        }
+
+    * argumentos:
+        son variables para utilizar dentro de la funcion, se puede utilizar multiples argumentos colocando entre comas para utilizar dentro de la funcion
+    
+    * return:
+        es una forma de devolver lo que queremos que la funcion haga, en una suma devuelve el resultado por ejemplo.
+        cada vez que la funcion llega a la exprecion return, la funcion detiene todo lo que esta haciendo, devuelve eso que se le pide en el return y luego comienza otra vez desde el principio. en este caso si hay mas codigo dentro de la funcion pero despues del return este no lo va a retornar.
+
+* if:
+    Las declaraciones 'if' se utilizan cuando se quiere hacer cosas condicionales, por ejemplo, si esta cosa es verdad, imprimnir true.
+    un ejemplo de esto es: 
+        if (1<10){
+            return true
+        }
+    en este caso es como decir: "si 1 es menor a 10 retornar true"
+    basicamente se utiliza para condicionar y la sintaxis es if parentecis abierto y cerrado (dentro la condicion) luego llaves de abierto y cerrado (dentro de los cuales estara el codigo a ejecutar en caso de que la condicion se cumpla).
+
+* valores booleanos:
+    son dos valores que representan true(verdadero) y false(falso)
+    el programa siempre se seguira ejecuntando mientras el valor booleano sea true y se detendra en false.
