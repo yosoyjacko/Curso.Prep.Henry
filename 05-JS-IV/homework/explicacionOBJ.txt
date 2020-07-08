@@ -1,0 +1,59 @@
+
+* Objetos :
+    son contenedores que tienen informacion de una cosa, a diferencia de un array que podemos tener muchas cosas el objeto seria la informacion de cada cosa dentro de un array. por ejemlo:
+        var perro = {
+            nombre: kal,
+            apellido: el,
+            edad: 3
+        }
+
+        en el ejemplo se puede ver que a una variable se le dio caracteristicas como nombre edad y apellido. todo eso son caracteristicas de la palabra perro.y siempre los metodos se separan con comas dentro del objeto.
+
+    
+* Propiedades:
+    las propiedades son el key:value que se encuentran dentro del objeto, estas se pueden modificar agregar o borrar..
+
+* Métodos:
+    son las funciones guardadas dentro de un objeto. asi como se puede guardar cualquier tipo de propiedad como por ejemplo:
+        var perro = {
+            nombre: pancha,
+            apellido: el,
+            ... 
+        }
+    se pueden guardar tambien funciones:
+        var perro ={
+            nombre: function(){
+                console.log('Hola kal-el);
+            }
+        }
+
+* Bucle `for…in`:
+    es un bucle que se utiliza para recorrer todas las key del objeto. Se declara una variable, luego la palabra in y el nombre del objeto.  esto recorrera cada key y finalizara cuando se hayan iterado todas las key del objeto.
+    podemos usar esta clave y la anotacion de corchetes en nuesto bucle for para acceder al valor asociado con esa clave.
+    por ejemplo:
+        var perros = {
+            nombre1: kal-el,
+            nombre2: pancha,
+            edad: '3 años',
+            color: 'negro y blanco'
+        }
+        for (var carcteristicas in perros){
+            console.log(caracteristicas);
+            console.log(perros[caracteristicas]);
+        }
+
+        //nombre1
+        //kal-el
+        //nombre2
+        //pancha
+        //edad
+        //'3 años'
+        //color
+        //'negro y blanco'
+        
+        en el ejemplo se puede aprecia que la variable caracteristicas recorra dentro de perros y luego imprima en consola usando solo la variable caracteristica o utilizando el nombreObjeto[variable Creado En EL In]
+
+* Notación de puntos vs notación de corchetes
+    con la notacion de punto se puede llamar a una propiedad del objeto de la siguiente manera:
+        user.pass; //muestra el valor de la key pass dentro del objeto
+    y la notacion de corchetes es como si fuera un array con la diferencia de que se debe usar una cadena o numero o una variable que apunte a una cadena o numero, se puede llamar a cada key envolviendola entre comillas
