@@ -1,0 +1,8 @@
+* array:
+    un array es un conjunto de tipos de datos a la cual le podemos asignar a una variable, para poder acceder a ella se coloca el nombre de la variable a la que le asignamos el arreglo seguido de corchetes abierto y cerrado, dentro de estos se coloca cualquier tipo de datos como por ejemplo: strings, numbers, booleanos, functions, etc.
+    ej:
+        var newGame = ['one', 2, function, true, false]
+    Los array siempre empiezan con el indice 0, es decir si queremos acceder al segundo item del ejemplo tenemos que acceder de la siguiente forma:
+        newGame[1];
+
+        esto nos devolvera "2" ya que nosotros queremos acceder al segundo item del arreglo y como siempre empieza en 0 tenemos que poner [1].
