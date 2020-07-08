@@ -1,0 +1,23 @@
+* for
+    es una exprecion de bucle que va evaluando una y otra vez hasta que termine de devolver lo que estamos buscando. una vez que el bucle de false termina de ejecutarse.
+    el bucle for siempre se ejecuta cuando es true solamente.
+    el bucle for tiene tres partes, en la primera se declara la variable(que es lo que queremos que se repita en el bucle), segundo, una exprecion condicional(donde el ciclo seguira funcionando hasta que de false) y tercero es donde se van incrementando la variable.
+        for (var i = 0; i <=5 ; i++){
+            console.log(i)
+        }
+    
+        en el ejemplo se observa que primero viene la palabra for luego parentecis y finalmente unas llaves de abierto y cerrado.
+        dentro del parentecis van a ir las declaraciones, primero una variable (var i = 0) separado Siempre por punto y coma, segundo la condicion(i>=5) que le estamos diciendo que mientras i sea menor o igual a 5 t por ultimo se incrementa la variable(i++) que significa que vamos a ir aumentando por cada vuelta en 1 a 'i'.
+
+        todo esto se va a ir repitiendo hasta que i sea menor o igual a 5. una vez que i sea 6 va a dar false y por lo tanto ya no va a imprimir y se detendra el bucle.
+
+* &&, ||, ! :
+    estos son operadores logicos y funcionan de la siguiente manera:
+        &&:
+            se refiere a que una condicion es igual a otra y por lo tanto siempre va a devolver true o false. esto quiere decir que lo que hace es comparar ambas expreciones y analizando que sean iguales, osea, si la primera declaracion es true y la segunda true devuelve true, si la primera es false y la segunda tambien es false, devuelve false.
+            ahora si la primera es true y la segunda false devolvera siempre false. porque para el operador logico && siempre  siempre tienen que ser las dos expreciones true o false, si son distintas devolvera falso.
+        || :
+            este operador logico se lee como 'or' y significa que con que solo una exprecion de las dos sea true siempre va a devolver true, no es necesario que sean las dos true. puede ser la primera exprecion true y la segunda false y en va a devolver true porque solo necesita de que una sola exprecon sea true, la unica manera de que devuelva false es si ambas partes son false sino siempre devolvera true.. hay que recordar que se lee de la siguiente forma: si esto es true 'O' esto es true/false va a ser true. a diferencia del operador logico && que para que sea true las dos partes tienen que ser true si o si.
+        ! :
+         este operador logico es el not(no) y lo que hace es devolver el operador booleano opuesto a lo que se le pasa, es decir, si le pasamos true nos devuelve false y si le pasamos false nos devuelve true.
+
