@@ -1,0 +1,2 @@
+*Funciones CallBack:
+    es la capacidad de pasar una funcion como argumento a otra
