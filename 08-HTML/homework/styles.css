@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(/henry/Prep/08-HTML/img/fondo.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    color: rgb(120, 1, 255);
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 500px;
+    width: 500px;
+    background:rgba(196, 196, 193, 0.5);
+    padding: 50px;
+    border: 3px rgb(255, 0, 0) solid;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+#spanId {
+    font-size: 30px;
+    margin: 50px;
+    color: red;
+}
+ul{
+
+    color: rgba(255, 255, 255, 0);
+}
